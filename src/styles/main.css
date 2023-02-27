@@ -1,0 +1,20 @@
+:root {
+  @apply <md:text-[14px]
+}
+
+body {
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, 'Noto Sans SC', sans-serif;
+    @apply text-dark-500 text-base;
+}
+
+.trans {
+  @apply transition duration-400 ease-in-out;
+}
+
+a {
+  @apply transform origin-bottom transition-all duration-400 ease-in-out hover:(text-rose-300 underline-rose-300 scale-105 );
+}
+
+.tag {
+  @apply text-xs font-extralight bg-neutral-100 text-neutral-700 rounded px-1 py-0.5;
+}
